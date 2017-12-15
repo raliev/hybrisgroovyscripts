@@ -1,4 +1,8 @@
+/* (c) 2017 Rauf Aliev, http://hybrismart.com */
+
 TYPE = "Product"
+
+/* CONFIGURATION */ 
 
 dontGoIntoTypes = ["Media"];
 dontGoIntoRelations  = false;

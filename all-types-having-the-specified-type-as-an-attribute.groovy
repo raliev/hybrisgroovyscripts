@@ -1,3 +1,9 @@
+/* (c) 2017 Rauf Aliev, http://hybrismart.com */
+
+String pkObj     = "8796141715457"
+type 		 = "Product";
+
+/****************************************************** */
 import de.hybris.platform.hac.data.dto.SqlSearchResultData;
 import de.hybris.platform.hac.facade.impl.DefaultFlexibleSearchFacade;
 import de.hybris.platform.core.PK;
@@ -7,9 +13,7 @@ import de.hybris.platform.persistence.type.ComposedTypeRemote;
 import de.hybris.platform.jalo.type.ComposedType;
 
 
-String pkObj     = "8796141715457"
 obj = modelService.get(new PK(pkObj as Long));
-type = "Product";
 types = []
 types.add(type);
 List<String> queries = new ArrayList<>();
