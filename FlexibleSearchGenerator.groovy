@@ -9,7 +9,7 @@ dontGoIntoRelations  = false;
 dontGoIntoTheRelations = ["Category"];
 dontGoIntoAttributes = ["itemtype", "owner"];
 strangeRelationTypes = ["ItemDocr", "Item2CockpitItemTemplate", "CommentItem", "ItemSavedValues"];
-GoIntoTheRelationTypeAttributes = ["AmwayDAMAsset.languages"];
+GoIntoTheRelationTypeAttributes = []; // Type.attribute
 
 println createFSComponentsForTheType(TYPE).toString();
 
